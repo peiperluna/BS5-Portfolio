@@ -10,9 +10,13 @@
     <script src="js/bootstrap.bundle.min.js"></script>
 
     <title>Portfolio Website</title>
-    <style></style>
+    <style>
+      .nav-link.active {
+        color: red !important;
+      }
+    </style>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#nav-scroll">
     <!-- 네브바 -->
     <nav
       class="navbar navbar-expand-md navbar-light bg-light fixed-top"
@@ -59,7 +63,7 @@
       style="background-image: url(image/hero-bg.jpg); background-size: cover"
     >
       <!-- 백그라운드 사이즈 커버 : 자동으로 화면에 맞게 조정 -->
-      <h1 class="fw-bolder display-1 mb-3">Lucie Anderson</h1>
+      <h1 class="fw-bolder display-1 mb-3">Hyunjoo Kim</h1>
       <h6 class="fs-3 text-secondary text-capitalize mb-4">
         I'm a professional front-end web developer
       </h6>
